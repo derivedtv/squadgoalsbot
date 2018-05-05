@@ -26,7 +26,7 @@ client.on('guildMemberAdd', member => {
       }
       });
     
-      var joinrole = member.guild.roles.find('name', 'Members');
+      var joinrole = member.guild.roles.find('name', 'Member');
       
       member.addRole(joinrole)
     });
